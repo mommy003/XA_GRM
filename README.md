@@ -4,6 +4,9 @@ Please ensure that mtg2 and plink1.9 are already installed in the working direct
 - mtg2 software can be downloaded from (https://sites.google.com/site/honglee0707/mtg2)
 - plink1.9 software can be downloaded from (https://www.cog-genomics.org/plink/)
 
+# Estimating GRM
+Genomic relationship matrix (GRM) could be estimated using -rtmx2 and/or -rtmx3 function using mtg2 software. Please see mtg2 manuals for details.
+
 # Reference 
 Momin, M. M., Shin, J., Lee, S., Truong, B., Benyamin, B., & Lee, S. H. (2021). A novel method for an unbiased estimate of cross-ancestry genetic correlation using individual-level data. bioRxiv.
 
