@@ -23,8 +23,8 @@ write.table(plinkbim[v2,2],file='snp_seltemp',col.names=FALSE,row.names=FALSE,ap
 ###extract the true eQTL
 
 system(paste('./plink1.9 --bfile combine --extract snp_seltemp --make-bed --out subplinktemp > subplink.log',sep='')) ##master file with common SNP only
-system(paste('./plink1.9 --bfile test1 --extract snp_seltemp --make-bed --out test1a'))
-system(paste('./plink1.9 --bfile test2 --extract snp_seltemp --make-bed --out test2a'))
+system(paste('./plink1.9 --bfile test1 --extract snp_seltemp --make-bed --out test1a')) ## test1 is the ancestry 1
+system(paste('./plink1.9 --bfile test2 --extract snp_seltemp --make-bed --out test2a')) ## test2 is the ancestry 2
 
 
 ###switch the alleles or keep the allele order as in the master (combine plink file)
