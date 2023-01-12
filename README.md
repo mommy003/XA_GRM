@@ -1,5 +1,5 @@
 # Phenotype simulation
-Phenotype can be simulated following the R script (Simu_phen_combined_pop.r) for combined population (e.g. South Asian and African) using ancestry-specefic allele frequency and ancestry-specefic genetic architecture.
+Phenotypes can be simulated following the R script (Simu_phen_combined_pop.r) for combined populations (e.g. South Asian and African) using ancestry-specific allele frequency and ancestry-specific genetic architecture.
 - To simulate phenotype in the working directory
 ```
 R CMD BATCH --no-save Simu_phen_combined_pop.r
