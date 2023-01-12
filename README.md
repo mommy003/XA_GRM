@@ -17,4 +17,4 @@ Genomic relationship matrix (GRM) could be estimated using -rtmx2 and/or -rtmx3 
 Momin, M. M., Shin, J., Lee, S., Truong, B., Benyamin, B., & Lee, S. H. (2021). A novel method for an unbiased estimate of cross-ancestry genetic correlation using individual-level data. bioRxiv.
 
 # Contact information
-Please contact Hong Lee (hong.lee@unisa.edu.au) or Moksedul Momin (cvasu.momin@gmail.com) if you have any queries.
+Please contact Hong Lee (hong.lee@unisa.edu.au) or Md Moksedul Momin (cvasu.momin@gmail.com) if you have any queries.
