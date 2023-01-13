@@ -19,10 +19,10 @@ Genomic relationship matrix (GRM) can be estimated using -rtmx2 and/or -rtmx3 fu
 ### In case of a single population
 ```
 <'rtmx_parameter'> should have
-1                                       #number of populations 
+1                           #number of populations 
 anyname.pop                 #file having the pop information (1 and 2)
--0.75                                #scale factor for pop 1 (same as 2 x alpha)
-2                                       #when scaling, var(x) or 2p(1-p) can be selected
+-0.75                       #scale factor for pop 1 (same as 2 x alpha)
+2                           #when scaling, var(x) or 2p(1-p) can be selected
 ```
 ‘anyname.pop’ should have 3 columns (FID, IID, pop_info (1 always)) where FID/IID order should be the same as in .fam file.  
 ```
