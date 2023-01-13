@@ -26,7 +26,7 @@ anyname.pop                 #file having the pop information (1 and 2)
 ```
 ‘anyname.pop’ should have 3 columns (FID, IID, pop_info (1 always)) where FID/IID order should be the same as in .fam file.  
 ```
-FID IID pop_info
+FID  IID pop_info
 fam1 id1 1
 fam2 id2 1
 fam3 id3 1
@@ -37,16 +37,16 @@ Observed SNP variance or expected SNP variance (2p(1-p)) can be selected. In the
 ### In case of 2 populations
 ```
 <'rtmx_parameter'> should have
-2                                       #number of populations 
+2                           #number of populations 
 anyname.pop                 #file having the pop information (1 and 2)
--0.75                                #scale factor for pop 1 (same as 2 x alpha)
--1.5                                  #scale factor for pop 2 (same as 2 x alpha)
-2                                       #when scaling var(x) or 2p(1-p) can be selected
+-0.75                       #scale factor for pop 1 (same as 2 x alpha)
+-1.5                        #scale factor for pop 2 (same as 2 x alpha)
+2                           #when scaling var(x) or 2p(1-p) can be selected
 ```
 ‘anyname.pop’ should have 3 columns (FID, IID, pop_info (1 or 2)) where FID/IID order should be the same as in .fam file. 
 
 ```
-FID IID pop_info
+FID  IID pop_info
 fam1 id1 1
 fam2 id2 1
 fam3 id3 2
@@ -58,17 +58,17 @@ Observed SNP variance or expected SNP variance (2p(1-p)) can be selected. In the
 ### In case of N populations
 ```
 <'rtmx_parameter'> should have
-N                                       #number of populations 
+N                           #number of populations 
 anyname.pop                 #file having the pop information (1 – N)
--0.75                                #scale factor for pop 1 (same as 2 x alpha)
--1.5                                  #scale factor for pop 2 (same as 2 x alpha)
--1.0                                  #scale factor for pop N (same as 2 x alpha)
-2                                       #when scaling var(x) or 2p(1-p) can be selected
+-0.75                       #scale factor for pop 1 (same as 2 x alpha)
+-1.5                        #scale factor for pop 2 (same as 2 x alpha)
+-1.0                        #scale factor for pop N (same as 2 x alpha)
+2                           #when scaling var(x) or 2p(1-p) can be selected
 ```
 ‘anyname.pop’ should have 3 columns (FID, IID, pop_info (1 – N)) where FID/IID order should be the same as in .fam file. 
 
 ```
-FID IID pop_info
+FID  IID pop_info
 fam1 id1 1
 fam2 id2 1
 fam3 id3 2
