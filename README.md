@@ -9,8 +9,9 @@ Please ensure that mtg2 and plink1.9 are already installed in the working direct
 - plink1.9 software can be downloaded from (https://www.cog-genomics.org/plink/)
 
 # Estimating GRM
-Genomic relationship matrix (GRM) could be estimated using -rtmx2 and/or -rtmx3 function using mtg2 software. Please see mtg2 manuals (https://www.dropbox.com/s/4fw5vu7seol4xbh/MTG2%20manual.pdf?dl=1) for details.
--Genomic relationship matrix for different populations and scale factors
+Genomic relationship matrix (GRM) can be estimated using -rtmx2 and/or -rtmx3 function using mtg2 software. Please see instruction below or refer MTG2 manual available in https://sites.google.com/view/s-hong-lee-homepage/mtg2 (see section 6.3).
+
+- Genomic relationship matrix for different populations and scale factors
 ./mtg2 -plink toy -rtmx2 rtmx_parameters -out any_file_name
 
  In case of a single population
