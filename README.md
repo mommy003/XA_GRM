@@ -16,7 +16,7 @@ Genomic relationship matrix (GRM) can be estimated using -rtmx2 and/or -rtmx3 fu
 ./mtg2 -plink toy -rtmx2 rtmx_parameters -out any_file_name
 ```
 
- In case of a single population
+- In case of a single population
 ```
 <'rtmx_parameter'> should have
 1                                       #number of populations 
@@ -34,7 +34,7 @@ fam3 id3 1
 ```
 Observed SNP variance or expected SNP variance (2p(1-p)) can be selected. In the last line, 1 = 2p(1-p) and 2 = var(x_i).
 
-In case of 2 populations
+- In case of 2 populations
 ```
 <'rtmx_parameter'> should have
 2                                       #number of populations 
@@ -54,8 +54,8 @@ fam3 id3 2
 ``` 
 
 Observed SNP variance or expected SNP variance (2p(1-p)) can be selected. In the last line, 1 = 2p(1-p) and 2 = var(x_i).
-In case of N populations
 
+- In case of N populations
 ```
 <'rtmx_parameter'> should have
 N                                       #number of populations 
