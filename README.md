@@ -25,12 +25,13 @@ anyname.pop                 #file having the pop information (1 and 2)
 2                                       #when scaling, var(x) or 2p(1-p) can be selected
 ```
 ‘anyname.pop’ should have 3 columns (FID, IID, pop_info (1 always)) where FID/IID order should be the same as in .fam file.  
-
+```
 FID IID pop_info
 fam1 id1 1
 fam2 id2 1
 fam3 id3 1
 ……
+```
 Observed SNP variance or expected SNP variance (2p(1-p)) can be selected. In the last line, 1 = 2p(1-p) and 2 = var(x_i).
 
 In case of 2 populations
