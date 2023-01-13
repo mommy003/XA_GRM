@@ -11,16 +11,19 @@ Please ensure that mtg2 and plink1.9 are already installed in the working direct
 # Estimating GRM
 Genomic relationship matrix (GRM) can be estimated using -rtmx2 and/or -rtmx3 function using mtg2 software. Please see instruction below or refer MTG2 manual available in https://sites.google.com/view/s-hong-lee-homepage/mtg2 (see section 6.3).
 
-- Genomic relationship matrix for different populations and scale factors
+## Genomic relationship matrix for different populations and scale factors
+```
 ./mtg2 -plink toy -rtmx2 rtmx_parameters -out any_file_name
+```
 
  In case of a single population
+```
 <'rtmx_parameter'> should have
 1                                       #number of populations 
 anyname.pop                 #file having the pop information (1 and 2)
 -0.75                                #scale factor for pop 1 (same as 2 x alpha)
 2                                       #when scaling, var(x) or 2p(1-p) can be selected
-
+```
 ‘anyname.pop’ should have 3 columns (FID, IID, pop_info (1 always)) where FID/IID order should be the same as in .fam file.  
 
 FID IID pop_info
