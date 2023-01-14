@@ -77,7 +77,8 @@ fam5 id5 10
 ```
 
 Observed SNP variance or expected SNP variance (2p(1-p)) can be selected. In the last line, 1 = 2p(1-p) and 2 = var(x_i).
-When there are many missing genotypes, e.g. a substantial proportion of SNPs is totally missing in one ancestry, -rtmx3 can be used with the same input files.
+
+- When there are many missing genotypes, e.g. a substantial proportion of SNPs is totally missing in one ancestry, -rtmx3 can be used with the same input files.
 
 ```
 ./mtg2 -plink toy -rtmx3 rtmx_parameters -out any_file_name
