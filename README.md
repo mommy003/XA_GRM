@@ -15,7 +15,6 @@ Genomic relationship matrix (GRM) can be estimated using -rtmx2 and/or -rtmx3 fu
 ```
 ./mtg2 -plink toy -rtmx2 rtmx_parameters -out any_file_name
 ```
-
 ### In case of a single population
 ```
 <'rtmx_parameter'> should have
