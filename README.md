@@ -91,7 +91,7 @@ Please download the latest version from the web if you have one before Aug/22.
 https://sites.google.com/view/s-hong-lee-homepage/mtg2
 
 # Reference 
-Momin, M. M., Shin, J., Lee, S., Truong, B., Benyamin, B., & Lee, S. H. (2021). A novel method for an unbiased estimate of cross-ancestry genetic correlation using individual-level data. bioRxiv. 
+Momin, M. M., Shin, J., Lee, S., Truong, B., Benyamin, B., & Lee, S. H. (2021). A novel method for an unbiased estimate of cross-ancestry genetic correlation using individual-level data. Nature communications, 2023. 14(722). 
 
 # Contact information
 Please contact Hong Lee (hong.lee@unisa.edu.au) or Md Moksedul Momin (cvasu.momin@gmail.com) if you have any queries.
